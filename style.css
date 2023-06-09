@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mainbox {
+
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+}
+
+.ul-1 {
+    width: 50%;
+    height: 30px;
+    padding-left: 70px;
+    list-style: none;
+    position: relative;
+    right: 40px;
+    top: 10px;
+    font-weight: 900;
+    color: red;
+}
+
+.ul-2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+.hero-section {
+
+    width: 100%;
+    height: 370px;
+    display: flex;
+
+
+
+}
+
+.text {
+    width: 50%;
+    height: 350px;
+    padding-left: 20px;
+}
+
+.text h3 {
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.text p {
+    width: 60%;
+
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.text button {
+    background-color: rgb(240, 114, 114);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    padding-top: 30px;
+}
+
+.image {
+    width: 50%;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    position: relative;
+    top: 20px;
+    width: 80%;
+}
+
+.bottam {
+
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Apros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.Apros img {
+    width: 40%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.Project {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.Project img {
+    width: 40%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.Luxury {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    background-color: #EAEAEA;
+    border-radius: 20px;
+}
+
+.Luxury img {
+    width: 50%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    .mainbox {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .ul-1 {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        height: 60px;
+    }
+
+    .ul-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .text p {
+        width: 100%;
+        height: auto;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .bottam {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 30px;
+        display: flex; align-items: center;    justify-content: center;
+    }
+    .Apros{ margin-bottom: 10px; padding: 20px; width: 100%;  }
+    .Project{ margin-bottom: 10px; padding: 20px;  width: 100%;   }
+    .Luxury{ width: 100%;  margin-bottom: 10px; padding: 20px;  padding-right: 20px;}
+
+}
